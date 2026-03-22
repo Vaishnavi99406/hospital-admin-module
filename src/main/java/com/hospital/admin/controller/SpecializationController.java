@@ -23,7 +23,7 @@ public class SpecializationController {
         return service.saveSpecialization(specialization);
     }
 
-    //delete
+    //delete .
     @DeleteMapping("/specialization/{id}")
     public String deleteSpecialization(@PathVariable Long id) {
         service.deleteSpecialization(id);

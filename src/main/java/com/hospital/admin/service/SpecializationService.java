@@ -21,6 +21,7 @@ public class SpecializationService {
     public Specialization saveSpecialization(Specialization specialization) {
         return repository.save(specialization);
     }
+
     public void deleteSpecialization(Long id) { repository.deleteById(id);}
 
 }
