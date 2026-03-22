@@ -1,8 +1,0 @@
-### Delete Doctor
-DELETE http://localhost:8080/api/admin/doctors/1
-
-### Approve Doctor
-PUT http://localhost:8080/api/admin/doctors/1/approve
-
-### Reject Doctor
-PUT http://localhost:8080/api/admin/doctors/1/reject
